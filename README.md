@@ -3,5 +3,4 @@ This database contains a set of experimental problems designed to study horizont
 Besides, these instances can be used as test problems to study the other aspects of cooperative (collaborative) pickup and delivery problem with time windows.
 These instances are initially generated in a study entitled “A Coalition Structure Algorithm for Large-scale Collaborative Pickup and Delivery Problem” which will be appeared in Computers and Industrial Engineering.
 
-Hamid Farvaresh (farvaresh@uok.ac.ir)
-Samira Shahmansouri (samirashahmansuri@gmail.com)
+Hamid Farvaresh (farvaresh@uok.ac.ir); Samira Shahmansouri (samirashahmansuri@gmail.com)
