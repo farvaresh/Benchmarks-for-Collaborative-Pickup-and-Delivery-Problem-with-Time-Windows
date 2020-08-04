@@ -1,0 +1,49 @@
+Part1: General Instance Data 
+Columns: 
+R	K	|V|	O	U	a	b
+Columns description:
+R: Number of carriers
+K: Number of requests
+|V|: Number of vehicles
+O: Number of depots (real and dummy)
+U: Capacity of each vehicle
+a: Weight of minimizing total distance objective function term
+b: Weight of minimizing total duration time objective function term
+
+Part2: Nodes properties 
+Columns:
+N	X_cord	Y_cord	m	alpha	beta	ST	P	D	K_R
+Columns description:
+N: Node id
+X_cord: Horizontal coordination of the node
+Y_cord: Vertical coordination of the node
+m: Volume or weight of the request of the node (a positve number for pickup nodes and a negative one for delivery nodes)
+alpha: The earliest visit time of the node
+beta: The latest visit time of the node
+ST: Service time of the request of the node
+P: Predecessor node id (-1 if the node is a pickup node)
+D: Successor node id (-1 if the node is a delivery node)
+K_R: The carrier which the request of the node belongs to it
+
+Part3: Depots properties
+Columns:
+N	X_cord	Y_cord	m	alpha	beta	ST	P	D	K_R
+Columns description:
+N: Node Id
+X_cord: Horizontal Coordination of the Node
+Y_cord: Vertical Coordination of the Node
+m: Volume or weight of the dummy request of the depot nodes which is a zero number!
+alpha: The earliest visit time
+beta: The latest visit time
+ST: Service time of the dummy request of depot
+P: Predecessor node id (-1 if the node is a real depot)
+D: Successor node id (-1 if the node is a dummy depot)
+K_R: The carrier which the dummy request of the depot belongs to it
+
+Part4: Vehicles properties 
+Columns:
+V	V_R
+Columns description:
+V: Vehicle id
+V_R: The carrier which the vehicle belongs to it
+
